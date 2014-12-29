@@ -1,0 +1,26 @@
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## PROJECT::GENERAL
+*.db
+*.sqlite3
+.bundle/*
+log/*
+*.swo
+.project
+nbproject
+
+## PROJECT::SPECIFIC
+/vendor/
