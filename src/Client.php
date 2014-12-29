@@ -10,9 +10,9 @@ class Client {
 
     const SITE_VERIFY_URL = "https://www.google.com/recaptcha/api/siteverify";
 
-    protected $_secret;
+    const PHP_REQUEST_VERSION = "php_1.0"; 
 
-    private static $_version = "php_1.0";
+    protected $_secret;
 
     /**
      * Constructor.
@@ -60,10 +60,10 @@ class Client {
 
         $getResponse = $this->_submitHttpGet(
             self::SITE_VERIFY_URL,
-            array (
+            array(
                 "secret" => $this->_secret,
                 "remoteip" => $remoteIp,
-                "v" => self::$_version,
+                "v" => self::PHP_REQUEST_VERSION,
                 "response" => $response
             )
         );
