@@ -1,6 +1,8 @@
 {
     "name": "nebiros/google-simple-recaptcha-client",
     "description": "Google's Simple reCAPTCHA Client",
+    "keywords": ["recaptcha", "api", "google", "captcha", "simple", "client"],
+    "homepage": "https://github.com/nebiros/google-simple-recaptcha-client",
     "license": "MIT",
     "authors": [
         {
